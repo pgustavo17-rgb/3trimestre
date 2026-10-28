@@ -1,94 +1,174 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
-body{
-font-family: "Poppins", sans-serif;
-}
-header{
-background-color: #424e61;
-color: white;
-width: 100%;
-padding: 20px;
-}
-.cabecalho-itens{
-max-width: 1980px;
-margin: 0 auto;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-.cabecalho-imagem{
-width: 10%;
-display: flex;
-justify-content: flex-start;
-align-items: center;
-}
-.titulo_site{
-padding: 50px;
-text-align: center;
-width: 50%;
-font: 30px;
-}
-.sociais{
-display: flex;
-justify-content: flex-end;
-width: 25%;
-padding-right: 30px;
-}
-.banner1{
-display: flex;
-justify-content: center;
-}
-.estudante_titulo{
-padding: 50px;
-text-align: center;
-
-}
-.estudante-nome{
-text-align: center;
-}
-.estudante-imagem{
-width: 120px;
-}
-.estudante-icone{
-width: 38px;
-padding: 4px 8px;
-}
-.estudante{
-background-image: background-color(#faae43);
-padding: 24px 0;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.estudante.div{
-text-align: center;
-padding: 24px 0;
-}
-.estudantes_todos{
-display: flex;
-justify-content: space-around;
-}
-.escola{
-background-image: linear-gradient(#40A2E3,#7FC2EF);
-color: white;
-display: flex;
-justify-content:center;
-padding: 24px 0;
-text-align:center;
-display:block;
-}
-.escola-titulo{
-padding: 50px;
-text-align: center;
-}
-.logo_rodape{
-height: 80px;
-padding: 12px 0;
-
+body {
+    font-family: "Poppins", sans-serif;
 }
 
-.link{
-color: #ffffff;
-text-decoration: none;
+header {
+    background-color: #424e61;
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+.cabecalho-itens {
+    max-width: 1980px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho-imagem {
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titulo_site {
+    padding: 50px;
+    text-align: center;
+    width: 50%;
+    font-size: 30px;
+}
+
+.sociais {
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+    padding-right: 30px;
+}
+
+.sociais img {
+    width: 35px;
+    height: auto;
+}
+
+.banner1 {
+    display: flex;
+    justify-content: center;
+}
+
+.escola-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.neymar-secao {
+    background: #fff;
+}
+
+.titulo-sobre {
+    font-size: clamp(28px, 4vw, 45px);
+    font-weight: 800;
+    text-align: center;
+    color: var(--azul-escuro);
+    margin-bottom: 10px;
+}
+
+.container-video {
+    width: 100%;
+    max-width: 900px;
+    aspect-ratio: 16 / 9;
+    margin: auto;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #111;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.neymar-video {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.estudante_titulo {
+    padding: 50px;
+    text-align: center;
+}
+
+.estudante-nome {
+    text-align: center;
+}
+
+.estudante-imagem {
+    width: 120px;
+}
+
+.estudante-icone {
+    width: 38px;
+    padding: 4px 8px;
+}
+
+.estudante {
+    background-color: #ffffff; 
+    padding: 24px 0;
+}
+
+.estudante-div {
+    text-align: center;
+    padding: 24px 0;
+}
+
+.estudantes_todos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.escola {
+    background-image: linear-gradient(#40A2E3, #7FC2EF);
+    color: white;
+    display: block;
+    justify-content: center;
+    padding: 24px 0;
+    text-align: center;
+}
+
+.escola-titulo {
+    padding: 50px;
+    text-align: center;
+}
+
+.logo_rodape {
+    height: 80px;
+    padding: 12px 0;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #576780;
+    display: flex;
+    justify-content: center;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #111111;
+}
+
+.video-escola {
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px;
 }
